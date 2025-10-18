@@ -1,0 +1,50 @@
+{
+  "cookies": [],
+  "origins": [
+    {
+      "origin": "http://demo.stackbill.com",
+      "localStorage": [
+        {
+          "name": "lang",
+          "value": "en"
+        },
+        {
+          "name": "rememberEmail",
+          "value": "null"
+        },
+        {
+          "name": "langimageName",
+          "value": "en.png"
+        },
+        {
+          "name": "rememberMeDay",
+          "value": "null"
+        },
+        {
+          "name": "rememberMe",
+          "value": "null"
+        },
+        {
+          "name": "organizationEmail",
+          "value": "wolf@assistanz.com"
+        },
+        {
+          "name": "langId",
+          "value": "1"
+        },
+        {
+          "name": "baseCurrencySymbol",
+          "value": "$"
+        },
+        {
+          "name": "pageTitle",
+          "value": "Assistanz"
+        },
+        {
+          "name": "langUuid",
+          "value": "cca75c54-4520-4887-8b75-4fcf77e6fb6c"
+        }
+      ]
+    }
+  ]
+}

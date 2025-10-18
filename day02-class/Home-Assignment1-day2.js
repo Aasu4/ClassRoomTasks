@@ -1,42 +1,31 @@
-//Classroom Assignment: Conditional Statements 
-
-//Task-1
+//launchBrowser function
 function launchBrowser(browserName){
-    if (browserName === "Chrome"){
 
-        console.log("Browser Launched Successfully");
-    } else{
-       console.log("Browser Not Found"); 
-    }
+if (browserName="chrome")
+{
+console.log("success");
+}else
+{
+console.log("fail");
 }
+}
+launchBrowser("chrome");
 
-launchBrowser("Chrome");
-launchBrowser("Firefox");
+//b) runTests function
+function runTests(testType){
 
-console.log("-------------------------------------------------");
+switch(testType){
 
-//Task-2
-runTest("smoke");
-function runTest(testType) {
-switch(testType) {
-case "smoke":
-console.log("Running smoke tests...");
+case "sanityCheck":
+console.log("san");
 break;
 
-case "sanity":
-    console.log("Running sanity tests...");
-    break;
-
-case "regression":
-console.log("Running regression tests...");
+case "smoke":
+console.log("smoke");
 break;
 
 default:
-console.log("Unknown test type.");
+console.log("no");
 }
 }
-
-
-
-
-
+runTests("sanityCheck");

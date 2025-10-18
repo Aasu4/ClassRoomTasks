@@ -1,31 +1,25 @@
 
-//let studentScore = 90;
-function students(studentScore){
-    let grade ;
-    switch(true) {
 
-            case studentScore > 80 :
-            grade = "Grade A";
-            break;
-
-            case studentScore > 70 :
-            grade = "Grade B";
-            break;
-
-            case studentScore > 60 :
-            grade = "Grade C";
-            break;
-
-            default :
-            grade = "No Grade";
-            break;
-
-    }   
-
-    console.log("The Student grade is : "+ grade)
-    return grade;   
-
+//c) students function
+function students(score) {
+    switch (score) {
+        case 100:
+            return "Grade A";
+        case 90:
+            return "Grade B";
+        case 80:
+            return "Grade C";
+        case 70:
+            return "Grade D";
+        default:
+            return "No Grade";
     }
-students(85);
-students(75);
-students(55);
+}
+
+// Calling the function
+let result = students(80);
+console.log("Student Grade:", result);
+
+
+
+
