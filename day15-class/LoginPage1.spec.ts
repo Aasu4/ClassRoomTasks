@@ -1,5 +1,7 @@
 import test from '@playwright/test'
-import { LoginPage } from '../pages/LoginPage'
+import { LoginPage } from '../day14-class/LoginPage'
+
+
 
 
 test("Login Page",async({page})=>{
