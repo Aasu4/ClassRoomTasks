@@ -1,0 +1,24 @@
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="18.494066">
+<testsuite name="createLead.spec.ts" timestamp="2025-10-21T11:56:01.937Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.399" errors="0">
+<testcase name="Create Lead" classname="createLead.spec.ts" time="6.399">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\createLead-Create-Lead-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|..\..\test-results\createLead-Create-Lead-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="createLead.spec.ts" timestamp="2025-10-21T11:56:01.937Z" hostname="firefox" tests="1" failures="0" skipped="0" time="6.629" errors="0">
+<testcase name="Create Lead" classname="createLead.spec.ts" time="6.629">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\..\test-results\createLead-Create-Lead-firefox\test-finished-1.png]]
+
+[[ATTACHMENT|..\..\test-results\createLead-Create-Lead-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

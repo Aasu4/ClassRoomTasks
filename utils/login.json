@@ -1,0 +1,17 @@
+[
+    {
+        "key" : "login_success",
+        "testID" : "TC001",
+        "username" : "Democsr",
+        "password" : "crmsfa"
+
+    },
+
+    {
+        "key" : "login_failure",
+        "testID" : "TC002",
+        "username" : "ais",
+        "password" : "ais123"
+
+    }
+]

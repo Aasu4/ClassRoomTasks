@@ -1,0 +1,121 @@
+<testsuites id="" name="" tests="6" failures="1" skipped="0" errors="0" time="37.481263">
+<testsuite name="example.spec.ts" timestamp="2025-10-21T07:28:18.292Z" hostname="chromium" tests="2" failures="0" skipped="0" time="17.446" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="6.319">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\example-has-title-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\example-has-title-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\example-has-title-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="11.127">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\example-get-started-link-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\example-get-started-link-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\example-get-started-link-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2025-10-21T07:28:18.292Z" hostname="firefox" tests="2" failures="1" skipped="0" time="40.425" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="9.897">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\example-has-title-firefox\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\example-has-title-firefox\video.webm]]
+
+[[ATTACHMENT|test-results\example-has-title-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="30.528">
+<failure message="example.spec.ts:10:5 get started link" type="FAILURE">
+<![CDATA[  [firefox] › example.spec.ts:10:5 › get started link ──────────────────────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('link', { name: 'Get started' })
+        - locator resolved to <a href="/docs/intro" class="getStarted_Sjon">Get started</a>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+        - element is visible, enabled and stable
+        - scrolling into view if needed
+        - done scrolling
+        - performing click action
+
+
+      12 |
+      13 |   // Click the get started link.
+    > 14 |   await page.getByRole('link', { name: 'Get started' }).click();
+         |                                                         ^
+      15 |
+      16 |   // Expects page to have a heading with the name of Installation.
+      17 |   await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+        at C:\Users\Balasubramaniyan\Downloads\ClassRoomTasks-PWR\ClassRoomTasks-PWR\tests\example.spec.ts:14:57
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\example-get-started-link-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\example-get-started-link-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\example-get-started-link-firefox\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\example-get-started-link-firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\example-get-started-link-firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\example-get-started-link-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\example-get-started-link-firefox\video.webm]]
+
+[[ATTACHMENT|test-results\example-get-started-link-firefox\error-context.md]]
+
+[[ATTACHMENT|test-results\example-get-started-link-firefox\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="example.spec.ts" timestamp="2025-10-21T07:28:18.292Z" hostname="webkit" tests="2" failures="0" skipped="0" time="24.482" errors="0">
+<testcase name="has title" classname="example.spec.ts" time="10.933">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\example-has-title-webkit\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\example-has-title-webkit\video.webm]]
+
+[[ATTACHMENT|test-results\example-has-title-webkit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="get started link" classname="example.spec.ts" time="13.549">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\example-get-started-link-webkit\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\example-get-started-link-webkit\video.webm]]
+
+[[ATTACHMENT|test-results\example-get-started-link-webkit\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
